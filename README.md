@@ -20,7 +20,7 @@
 
 ### 1. Клонируйте репозиторий
 ```bash
-git clone https://github.com/your_username/embedding.git
+git clone https://github.com/gderabota/embedding.git
 cd embedding
 ```
 
