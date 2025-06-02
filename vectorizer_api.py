@@ -58,7 +58,7 @@ async def validation_exception_handler(request: Request, exc: RequestValidationE
         content={"detail": exc.errors()},
     )
 
-@app.post("/embedding")
+@app.post("/vector")
 async def get_embedding(request: TextRequest):
     input_text = request.text
     try:
